@@ -1,7 +1,7 @@
 
 	if (typeof erc20contract_address == "undefined") {
 		var erc20contract_address = "0xdeb63606e98338942565cd5f517af07272ac05dc";
-		var option_etherscan_api = 'https://ropsten.etherscan.io'; //change to https://api.etherscan.io for mainnet
+		var option_etherscan_api = 'https://api.etherscan.io'; //change to https://api.etherscan.io for mainnet
 		var option_registration_enabled = false;
 		var option_registration_backend = '';///'subscribe.php'; //you can use remote address like https://yoursite.com/subscribe.php
 		var option_recive_btc = ''; //reserved for future
@@ -271,7 +271,7 @@ function recalc() {
 
 		$("#mysmart").prop('href',option_etherscan_api.replace("api.","")+"/address/"+erc20contract_address);
 		if (g("registered")==1) {
-			$("#name").hide();
+			$("#name").show();
 			$("#email").hide();
 			$("#pass").hide();
 			$("#reg").hide();
