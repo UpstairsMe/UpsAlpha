@@ -1,8 +1,6 @@
 # Upstairs Demo
 Minimal &amp; secure ERC20 dashboard/wallet. using lightwallet.js, ethereumjs &amp; etherscan as node provider
 
-<a href="https://upstairsme.github.io/">Demo</a> 
-
 Designed special for <a href="http://ethereum.org/token">ERC20 projects</a>.
 
 # Secure
